@@ -1,7 +1,7 @@
 # Concessionaria-API
 
 # Catálogo de Veículos - Concessionária 🚗🏍️
-Projeto desenvolvido para listar carros, motos e vendedores usando uma API REST.
+Projeto desenvolvido para listar carros, motos e vendedores usando uma API.
 
 ---
 ## 🚀 Funcionalidades
@@ -25,9 +25,11 @@ A API deve estar rodando em:
  http://localhost:3000
 
 
----## ▶️ Como Rodar o Projeto1. Baixe o repositório 2. Certifique-se de que a API está rodando em `localhost:3000` 3. Abra o arquivo `index.html` no navegador
+---## ▶️ Como Rodar o Projeto
+1. Baixe o repositório
+2. Certifique-se de que a API está rodando em `localhost:3000`
+3. Abra o arquivo `index.html` no navegador
 
----## 🛠️ Tecnologias Utilizadas- HTML5 - CSS3 - JavaScript (Vanilla) - Fetch API
 
 ---## 📂 Estrutura do Projeto
 /projeto
