@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concessionária - SPEEDZONE MOTORS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <header class="navbar">
+        <div class="logo"><img src="./img/logo-removebg-preview.png " alt=""></div>
+
+        <nav>
+            <a href="#">Contato</a>
+            <a href="#">Serviço</a>
+            <a href="#">Sobre</a>
+        </nav>
+
+        <button class="login-btn">Login</button>
+    </header>
+
+
+    <section class="hero">
+        <h1>SpeedZone Motors</h1>
+        <p>Esse site é um site de vendas de carros e motos bem legais!</p>
+
+
+        <button class="reload-btn">Compre Agora</button>
+    </section>
+
+
+    <section class="produtos">
+        <h2>Carros</h2>
+
+        <button onclick="buscarCarros()" class="reload-btn">Carregar / Atualizar</button>
+
+        <div id="lista-carros" class="grid">
+
+        </div>
+    </section>
+
+
+    <section class="produtos">
+        <h2>Motos</h2>
+
+        <button onclick="buscarMotos()" class="reload-btn">Carregar / Atualizar</button>
+
+        <div id="lista-motos" class="grid">
+
+        </div>
+    </section>
+
+
+    <section class="vendedores">
+        <h2>VENDEDORES</h2>
+        <p>
+            Nossos vendedores são especialistas apaixonados pelo que fazem e estão sempre prontos<br>
+            para ajudar você a encontrar exatamente o que procura.
+        </p>
+            <button onclick="buscarVendedores()" class="btn-vendedor">Carregar / Atualizar</button>
+        <div id="lista-vendedores" class="grid">
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

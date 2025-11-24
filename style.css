@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: #e6e6e6;
+    color: rgb(0, 0, 0);
+}
+
+.navbar {
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1f1a1a;
+    color: #000000;
+    font-family: 'Inter';
+}
+
+.navbar nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000000;
+   padding: 8px 20px;
+    background: #f1f1f1;
+    border: none;
+    cursor: pointer;
+    font-family: 'Inter';
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.login-btn {
+    padding: 8px 20px;
+    background: #dddddd;
+    border: none;
+    cursor: pointer;
+    font-family: 'Inter';
+    border-radius: 15px;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Inter';
+}
+
+.hero {
+    padding: 40px 20px;
+}
+
+.hero h1 {
+    font-family: 'Inter';
+    font-weight: 650px;
+}
+
+.primary-btn {
+    padding: 12px 30px;
+    margin-top: 15px;
+    background: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins';
+}
+
+.produtos {
+    margin-top: 60px;
+}
+
+.grid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    padding: 0 40px;
+}
+
+.card {
+    background: rgb(87, 0, 0);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.678);
+    color: #ffffff;
+    font-family: 'Inter';
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    border-radius: 6px;
+    object-fit: cover;
+    background: #ccc;
+}
+
+.info {
+    text-align: left;
+    margin: 10px 0;
+}
+
+.buy-btn {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+
+.reload-btn {
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+
+}
+
+.reload-btn:hover,
+.reload-btn:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742;
+}
+
+.reload-btn:active {
+    opacity: .5;
+}
+
+
+.vendedores {
+    margin: 70px 0;
+}
+
+.vendedor-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.vendedor-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    background: #ccc;
+    border-radius: 8px;
+}
+
+.btn-vendedor {
+    width: 200px;
+    margin: auto;
+    padding: 8px;
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 800;
+
+
+}
+
+.btn-vendedor:hover,
+.btn-vendedor:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742;
+}
+
+.btn-vendedor:active {
+    opacity: .5;
+}
+
+.logo img {
+    width: 100px;
+}
